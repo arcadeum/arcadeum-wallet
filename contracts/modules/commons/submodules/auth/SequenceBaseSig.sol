@@ -136,7 +136,7 @@ library SequenceBaseSig {
           address addr = SignatureValidator.recoverSigner(_subdigest, _signature[rindex:nrindex]);
           rindex = nrindex;
 
-          // Acumulate total weight of the signature
+          // Accumulate total weight of the signature
           weight += addrWeight;
 
           // Write weight and address to image
@@ -161,7 +161,7 @@ library SequenceBaseSig {
           }
           rindex = nrindex;
 
-          // Acumulate total weight of the signature
+          // Accumulate total weight of the signature
           weight += addrWeight;
 
           // Write weight and address to image

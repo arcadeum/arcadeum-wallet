@@ -59,7 +59,7 @@ contract L2CompressorHuffReadTxTests is AdvTest {
     assertEq(abi.encodePacked(abi.encode(32), res), abi.encode(t));
   }
 
-  function test_read_simple_2_transactions_asymetric() external {
+  function test_read_simple_2_transactions_asymmetric() external {
     address _addr = address(0x1234567890123456789012345678901234567890);
     address _addr2 = address(this);
     bytes memory _data = hex"123456789012345678901234567890123456789012345678901234567890123456789011222211";
